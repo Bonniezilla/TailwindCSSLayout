@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailwindCSS Layout</title>
+</head>
+<body class="bg-zinc-900 h-screen w-screen text-white">
+    <header class="h-24 bg-zinc-500 flex justify-center items-center">
+        <ul class="h-full w-full flex justify-center items-center gap-8">
+            <li class="p-6 bg-yellow-500 rounded-lg hover:bg-purple-700 ease-in-out duration-300"><a href="#main">Main</a></li>
+            <li class="p-6 bg-yellow-500 rounded-lg hover:bg-purple-700 ease-in-out duration-300"><a href="#main">Footer</a></li>
+        </ul>
+    </header>
+    <main class="h-full bg-yellow-500 flex justify-center items-center text-center" id="main">
+        <article class="flex flex-col content-center h-full gap-28 p-28">
+            <h1 class="text-9xl font-bold">My Main</h1>
+            <p class="text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, architecto laudantium harum voluptates consectetur repellendus rerum, quisquam autem impedit explicabo repellat. Pariatur porro fuga repudiandae quam libero iste consequuntur suscipit.</p>
+        </article>
+    </main>
+    <footer class="h-2/5 bg-purple-700" id="footer">
+        <article class="h-full flex justify-center items-center">
+            <h1 class="font-bold text-9xl">My Footer</h1>
+        </article>
+    </footer>
+</body>
+</html>
